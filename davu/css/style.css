@@ -1,0 +1,141 @@
+body {
+	font-size: 14px;
+	font-family: "MyriadPro-Regular";
+	background-color: #eeeeee;
+	margin: 0;
+}
+
+header, section { 
+	display: block;
+ }
+
+.clearfix {
+	zoom: 1;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: table;
+    content: "";
+    clear: both; 
+}
+h1, h2, h3 {
+	font-weight: 100;
+	margin: 0;
+}
+
+/*************************/
+/******* header **********/
+/*************************/
+
+.leftside { 
+ 	float: left;
+ 	max-width: 480px;
+ }
+
+.rightside {
+	float: right;
+	height: 216px;
+    border: 5px solid #eee;
+    border-radius: 5px;
+}
+
+.rightside img {
+	min-width: 100%;
+}
+
+.main-info {
+	max-width: 750px;
+    margin: 70px auto 0;
+    padding: 50px;
+    background-color: #fff;
+   	background-image: url(../img/header-line.png);
+    background-repeat: no-repeat;
+    background-position: 42% 100%;
+}
+
+.leftside h1 {
+	margin: 0;
+	font-size: 40px;
+	color: #444444;
+	line-height: 30px;
+}
+
+.leftside .info {
+	font-size: 28px;
+    color: #aaaaaa;
+    margin: 5px 0;
+}
+
+.leftside .description {
+	font-size: 15px;
+	color: #555555;
+	line-height: 20px;
+	margin-bottom: 25px;
+
+}
+.leftside .contacts {
+	margin-top: 10px;
+
+}
+
+.leftside .contacts p {
+	font-size: 16px;
+	color: #555555;
+}
+
+.leftside .contacts .email {
+	margin-bottom: 0;
+}
+
+.leftside .contacts .website {
+	margin-top: 5px;
+}
+
+.leftside .contacts p a{
+	color: #aaaaaa;
+	text-decoration: none;
+	letter-spacing: -0.6px;
+} 
+
+/** header END **/
+
+/*************************/
+/******* section **********/
+/*************************/
+
+section {
+	max-width: 750px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 50px;
+}
+
+section .title {
+	font-size: 28px;
+	color: #444444;
+	margin: 0;
+}
+
+section .job-item {
+	margin-top: 25px;
+	color: #aaaaaa;
+}
+
+section .job-item h3 a{
+	font-size: 22px;
+	text-decoration: none;
+	color: #0b8bbb;
+}
+
+section .job-item .job-item-title {
+	font-size: 22px;
+	margin: 0;
+}
+
+section .job-item .description {
+	max-width: 600px;
+	line-height: 22px;
+}
+
+/** section END **/
