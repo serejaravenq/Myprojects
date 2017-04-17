@@ -48,6 +48,8 @@ h3 {
 /************/
 header {
 	padding: 20px;
+	max-width: 960px;
+	margin: 0 auto;
 }
 
 .header-wrapper .logo {
@@ -71,6 +73,10 @@ header {
 header .main-searcher {
 	float: right;
 	padding-top: 15px;
+	
+}
+header .main-searcher  input{
+	font-size: 12px;
 }
 
 .form-actions input {
@@ -78,7 +84,7 @@ header .main-searcher {
     border: none;
     color: #fff;
     text-transform: uppercase;
-    padding: 7px 6px;
+    padding: 8px 10px;
     outline: 0;
 }
 
@@ -94,7 +100,7 @@ header .main-searcher {
 
 .form-item input {
 	float: right;
-	padding: 6px;
+	padding: 7px;
 	border: 1px solid #dddddd;
 }
 
@@ -108,7 +114,7 @@ header .main-nav {
 
 header .main-nav ul li {
 	display: inline-block;
-	padding: 10px 10px;
+	padding: 20px 15px;
 	color: #666666;
 }
 
@@ -187,6 +193,11 @@ header .main-nav ul li:hover {
 	width: 31%;
 }
 
+.services img {
+	float: left;
+	padding: 10px;
+}
+
 .services-item .sidebar {
 	display: inline-block;
 	margin: 8px 5px 0 10px;
@@ -197,22 +208,18 @@ header .main-nav ul li:hover {
 	margin: 15px 25px;
 }
 
-.services-item .main {
-	display: inline-block;
-	width: 75%;
-}
-
 .services-item .title {
-	margin: 5px 0;
+	margin: 10px 0 5px;
 	display: inline-block;
 	font-size: 16px;
 	color: #333333;
 }
 
 .services-item .description {
-	margin: 0 0 10px;
+	margin: 0 0 15px;
     color: #999999;
     line-height: 17px;
+    padding-left: 62px;
 }
 
 
