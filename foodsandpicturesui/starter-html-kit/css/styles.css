@@ -1,0 +1,248 @@
+body {
+	font-family: "montserratregular", sans-serif;
+	font-size:  16px;
+	background-color: #1d2c3f;
+}
+
+
+h2 {
+	font-size: 24px;
+	font-family: "montserratbold", sans-serif;
+}
+
+a {
+	color: inherit;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: table;
+    content: "";
+    clear: both; 
+}
+
+/************************/
+/**ingredients-wrapper **/
+/************************/
+
+.ingredients-wrapper {
+	max-width: 245px;
+	margin: 50px auto;
+	padding: 5px 0;
+	background: url(../images/food.png) no-repeat;
+	height: 320px;
+	color: #fff;
+	position: relative;
+}
+
+.ingredients-wrapper .title {
+	text-align: center;
+}
+
+.ingredients-wrapper .list {
+	margin: 5px 0;
+	padding: 0 35px;
+	
+}
+.ingredients-wrapper ul li {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 10px 0;
+  position: relative;
+  cursor: pointer; 
+}
+
+.list .first span { 
+ 	color: #B8C0C9;
+} 
+
+.list .first span::before { 
+	content: ""; 
+	display: block; 
+	width: 100%; 
+	height: 1px; 
+	background-color: #B8C0C9; 
+	position: absolute; 
+	left: 0; 
+	top: 10px; 
+} 
+
+.slider {
+	margin: 10px 0;
+	text-align: center;
+}
+
+.slider a {
+	padding: 5px;
+	margin: 5px 3px;
+	background: url(../images/button-off.png) no-repeat 50% 50%;
+}
+ 
+.slider a:hover {
+	background: url(../images/button-on.png) no-repeat 50% 50%;
+}
+/************************/
+/**ingredients-wrapper END**/
+/************************/
+
+/************************/
+/**burger-wrapper **/
+/************************/
+
+.burger-wrapper {
+	max-width: 470px;
+	position: relative;
+	background: url(../images/bg-burger.png) no-repeat;
+	margin: 20px auto;	
+}
+
+.burger {
+	height: 455px;
+	padding: 5px 40px;
+}
+
+.burger-wrapper h2 {
+	margin-bottom: 0;
+	color: #fff;
+}
+
+.burger-wrapper .info {
+	color: #c6ddee;
+}
+
+.burger-wrapper .time {
+	color: #bcec8f;
+}
+
+.burger-wrapper .flag {
+	background-color: #ecc30a;
+    position: absolute;
+    text-align: right;
+    border-radius: 5px 0 0 5px;
+    display: table;
+    right: 0;
+    height: 40px;
+    top: 55px;
+}
+
+.burger-wrapper .flag  span {
+	font-size: 20px;
+    color: #fff;
+    background: url(../images/star.png) no-repeat 23% 40%;
+    display: table-cell;
+    padding-right: 15px;
+    vertical-align: middle;
+    width: 90px;
+}
+
+.burger-wrapper .footer {
+	color: #7f8187;
+	background-color: #fff;
+	padding: 15px 20px 15px 40px;
+	border-radius: 0 0 10px 10px;
+
+}
+
+.burger-wrapper .footer .sidebar {
+	display: inline-block;
+    float: left;
+    width: 12%;
+    margin-right: 15px;
+}
+
+.burger-wrapper .footer .sidebar p {
+	border: 2px solid #98c76c;
+	border-radius: 50%;
+    text-align: center;
+    color: #98c76c;
+    font-size: 30px;
+    margin: 10px 0;
+    line-height: 45px;
+    height: 45px;
+}
+
+.burger-wrapper .footer .description {
+	display: inline-block;
+    width: 81%;
+    font-size: 14px;
+    background: url(../images/arrow.png) no-repeat 100%;
+    padding: 0 30px 0 15px;
+}
+/************************/
+/**burger-wrapper END**/
+/************************/
+
+
+/************************/
+/**Flavour-wrapper **/
+/************************/
+.flavour-wrapper {
+	max-width: 470px;
+	background: url(../images/coffee.png) no-repeat;
+	color: #000;
+	font-size: 12px;
+	padding: 30px;
+	text-align: center;
+	height: 613px;
+	position: relative;
+	margin: 25px auto;
+}
+
+.flavour-wrapper .date {
+	color: #c2c2c4;
+	margin-bottom: 0;
+}
+
+.flavour-wrapper .title {
+	margin-top: 5px;
+	color: #4e4f53;
+	margin-bottom: 10px;
+}
+
+.flavour-wrapper .separator {
+	display: inline-block;
+    height: 5px;
+    width: 50px;
+    background-color: #000;
+    margin: 0;
+    border: none;
+}
+
+.flavour-wrapper .description {
+ 	color: #7f8187;
+ 	font-size: 14px;
+ 	width: 79%;
+    margin: 15px auto;
+}
+
+.flavour-wrapper .button {
+	position: absolute;
+	display: block;
+	font-family: "montserratbold", sans-serif;
+	background-color: #478cba;
+	max-width: 115px;
+	width: 100%;
+	color: #fff;
+	border-radius: 5px;
+	bottom: 50px;
+	left: 180px;
+	font-size: 14px;
+	padding: 6px 0 4px;
+}
+/************************/
+/**Flavour-wrapper END**/
+/************************/
