@@ -1,5 +1,5 @@
 body {
-	font-family: "montserratregular", sans-serif;
+	font-family: "Montserrat", sans-serif;
 	font-size:  16px;
 	background-color: #1d2c3f;
 }
@@ -7,7 +7,6 @@ body {
 
 h2 {
 	font-size: 24px;
-	font-family: "montserratbold", sans-serif;
 }
 
 a {
