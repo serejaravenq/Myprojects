@@ -1,5 +1,9 @@
 body {
+<<<<<<< HEAD
 	font-family: 'Montserrat', sans-serif;
+=======
+	font-family: "Montserrat", sans-serif;
+>>>>>>> 86e00777b18d361a51c11bcab7ce661e885a1152
 	font-size:  16px;
 	background-color: #1d2c3f;
 }
@@ -7,7 +11,6 @@ body {
 
 h2 {
 	font-size: 24px;
-	font-family: "montserratbold", sans-serif;
 }
 
 a {
