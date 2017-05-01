@@ -1,0 +1,192 @@
+body {
+	font-family: "Arial-Regular";
+	font-size: 14px;
+	padding: 70px;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul {
+	padding: 0;
+	list-style-type: none;
+	margin: 20px 0;
+}
+
+h1, h3 {
+	margin: 0;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: table;
+    content: "";
+    clear: both; 
+}
+
+/****************/
+/**** header ****/
+/****************/
+h1 {
+	font-family: "MyriadPro-semibold";
+	font-size: 60px;
+	display: inline-block;
+	color: #222222;	
+}
+
+.slogan {
+	float: right;
+    display: inline-block;
+    font-size: 30px;
+    font-family: "MyriadPro-Regular";
+    color: #b0b0b0;
+}
+
+.main-nav {
+	border-top: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+	margin: 20px 0;
+}
+
+.main-nav li {
+	display: inline-block;
+    font-size: 20px;
+    color: #444444;
+}
+
+.main-nav li span {
+	margin: 10px;
+}
+
+.main-nav li a:hover {
+	color: #0b79a3;
+}
+
+/**** header END ****/
+
+/****************/
+/**** info ******/
+/****************/
+/* content */
+
+.content {
+	margin: 40px 0 50px;
+}
+
+.info h2 {
+	font-family: "MyriadPro-Regular";
+	font-size: 42px;
+	color: #444444;
+}
+
+.info .description-blog {
+	float: right;
+	width: 63%;
+	font-family: "MyriadPro-Regular";
+	color: #555555;
+}
+
+.info .description-blog h3 {
+	font-size: 30px;
+	font-weight: 100;
+	width: 60%;
+}
+
+.info .description-blog h3 span {
+	font-family: "MyriadPro-Semibold";
+}
+
+.info .description-blog .description {
+	font-size: 20px;
+	width: 70%;
+}
+
+.info .description-blog .button {
+	display: inline-block;
+    text-transform: uppercase;
+    font-family: "MyriadPro-Bold";
+    color: #fff;
+    background-color: #0b79a3;
+    max-width: 170px;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 15px;
+}
+
+/* content END */
+
+.info .separator {
+	border: 1px solid #dddddd;
+    margin: 20px 0;
+    border-top: none;
+}
+
+/* portfolio */
+.portfolio {
+	margin-top: 50px;
+}
+
+.info .portfolio h3 {
+	color: #555555;
+	font-size: 25px;
+	font-weight: 100;
+}
+
+.info .portfolio img {
+	margin: 20px 60px 10px 0;
+}
+/* portfolio END */	
+
+/* additional-info */
+
+.additional-info {
+	margin-top: 50px;
+}
+
+.additional-info .info-item {
+	color: #555555;
+	width: 100%;
+	max-width: 280px;
+	display: inline-block;
+	margin-right: 60px;
+}
+
+.info-item .title {
+	font-size: 22px;
+	margin: 0;
+}
+
+.info-item .description {
+	line-height: 20px;
+}
+
+.info-item .details {
+	color: #0b79a3;
+}
+
+/* additional-info END*/
+/**** info END****/
+
+/****************/
+/**** footer ****/
+/****************/
+.footer-nav {
+	color: #888888;
+}
+
+.footer-nav li{
+	display: inline-block;
+}
+
+.footer-nav .last{ 
+	float: right;
+	color: #0b79a3;
+ } 

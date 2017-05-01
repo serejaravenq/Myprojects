@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "ERASITC";
+    src: url("../fonts/ERASLGHT.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/*
+@font-face {
+  font-family: 'Open Sans'; 
+  src: url('/font/opensans.eot');
+  src: url('/font/opensans.eot?#iefix') format('embedded-opentype'),
+  url('/font/opensans.woff') format('woff'),
+  url('/font/opensans.ttf') format('truetype'),
+  url('/font/opensans.svg#OpenSansRegular') format('svg');
+  font-style: normal;
+  font-weight: normal;
+} */

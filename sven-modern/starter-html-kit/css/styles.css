@@ -1,0 +1,624 @@
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	color: #656565;
+	background-color: #f0f0f0;
+}
+
+h2 {
+	font-size: 15px;
+	font-weight: 100;
+}
+
+p {
+	font-size: 11px;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style-type: none;
+	height: 45px;
+	line-height: 45px;
+}
+
+a {
+	color: inherit;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: table;
+    content: "";
+    clear: both; 
+}
+
+.info-wrapper, 
+.product-item,
+.details-wrapper,
+.main-navigation,
+.collection-item,
+.authorization,
+.login,
+.big-sale,
+.bedroom,
+.contacts,
+.checkout,
+.persons,
+.search-form {
+	margin: 30px 15px;
+	min-width: 370px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.description {
+	max-width: 370px;
+	padding: 10px 30px;
+	background-color: #fff;
+}
+
+/**************************/
+/******main-navigation*****/
+/**************************/
+
+.main-navigation {
+	min-width: 270px;
+	background-color: #fff;
+}
+
+.main-navigation .title {
+	background-color: #2d2d2d;
+	font-size: 20px;
+	color: #06eade;
+	text-align: center;
+	line-height: 60px;
+	height: 60px;
+	border-bottom: none;
+}
+
+.main-navigation  ul li {
+	border-bottom: 1px solid #f5f7f7;
+}
+
+.main-navigation  ul li .icon {
+	border-right: 1px solid #f5f7f7;
+	margin-right: 20px;
+	display: inline-block;
+    height: 45px;
+    min-width: 50px;
+    vertical-align: middle;
+}
+
+.main-navigation  ul .friends {
+	background-color: #fbfbfb;
+}
+
+
+.main-navigation  ul li:nth-child(2) .icon {
+	background: url(../images/main-nav-icon1.png) no-repeat 50% 47%;
+}
+
+.main-navigation  ul li:nth-child(3) .icon {
+	background: url(../images/main-nav-icon2.png) no-repeat 50% 47%;
+}
+
+.main-navigation  ul li:nth-child(4) .icon {
+	background: url(../images/main-nav-icon3.png) no-repeat 50% 47%;
+	border-right: none;
+}
+
+.main-navigation  ul li:nth-child(5) .icon {
+	background: url(../images/main-nav-icon4.png) no-repeat 50% 47%;
+}
+
+.main-navigation ul li .number {
+	float: right;
+    background-color: #06eade;
+    height: 24px;
+    line-height: 24px;
+    width: 24px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 11px;
+    margin: 10px;
+}
+
+/******************************/
+/******main-navigation END*****/
+/******************************/
+
+/**************************/
+/******details-wrapper*****/
+/**************************/
+
+.details-wrapper .details {
+	background-color: #364e4e;
+	color: #06eade;
+	text-align: center;
+	padding: 5px;
+}
+
+.details-wrapper .details a {
+	margin: 68px auto;
+    padding: 15px 0;
+    display: block;
+    border: 1px solid #fff;
+    max-width: 155px;
+}
+
+.details-wrapper h2 {
+	color: #06eade;
+}
+
+.details-wrapper .date {
+	color: #c4c4c4;
+}
+
+/******************************/
+/******details-wrapper END*****/
+/******************************/
+
+/***********************/
+/******info-wrapper*****/
+/***********************/
+
+.info-wrapper .info {
+	background-color: #000;
+	padding: 100px;
+}
+
+
+/***************************/
+/******info-wrapper END*****/
+/***************************/
+
+/***********************/
+/******product-item*****/
+/***********************/
+ 
+.product-item .product {
+	padding: 200px 0;
+	background-color: #2d2d2d;
+}
+
+.product-item .description h2 {
+	color: #2d2d2d;
+	line-height: 28px;
+}
+
+.product-item .description h2 .price {
+	float: right;
+	font-size: 20px;
+	color: #06eade;
+}
+
+.product-item .actions {
+	color: #06eade;
+	font-size: 11px;
+	background-color: #2d2d2d;
+	padding: 5px;
+}
+
+.product-item .actions a {
+	display: block;
+	max-width: 150px;
+	margin: 15px auto;
+	text-align: center;
+	border: 1px solid #fff;
+	padding: 6px 0;
+}
+
+/***************************/
+/******product-item END*****/
+/***************************/
+
+/***************************/
+/******collection-item *****/
+/***************************/
+
+.collection-item {
+	min-width: 270px;
+	background-color: #2d2d2d;
+	text-align: center;
+}
+
+.collection-item h2 {
+	color: #06eade;
+	margin-top: 190px;
+	padding-top: 65px;
+    background: url(../images/items-icon.png) no-repeat 50% 0; 
+}
+
+.collection-item p {
+	max-width: 270px;
+	padding: 0 10px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+/******************************/
+/******collection-item END*****/
+/******************************/
+
+/*************************/
+/******login *****/
+/*************************/
+
+.login {
+	background-color: #fff;
+	padding-bottom: 25px;
+}
+
+.login h2 {
+	color: #06eade;
+	background-color: #2d2d2d;
+	text-align: center;
+	padding: 20px 0;
+	margin: 0 0 20px;
+	font-size: 20px;
+}
+
+.login input {
+	display: block;
+    width: 90%;
+    border: 1px solid #fbfbfb;
+    color: #c4c4c4;
+    padding: 8px 15px;
+    margin: 15px auto;
+}
+
+.login .submit {
+	color: #fff;
+	background-color: #06eade;
+	margin: 0 auto;
+}
+
+.login a {
+	color: #06eade;
+	font-size: 11px;
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.login .footer-form a {
+	text-align: center;
+	color: #656565;
+	background-color: #fbfbfb;
+	line-height: 40px;
+}
+
+.login .footer-form a span {
+	color: #06eade;
+}
+
+/****************************/
+/******login END*****/
+/****************************/
+
+/********************/
+/******big-sale *****/
+/********************/
+
+.big-sale {
+	background-color: #fff;
+}
+
+.big-sale .figure {
+	padding: 64px 0;
+    background: url(../images/big-sale-icon.png) no-repeat 90% 0 #cccccc;
+    min-width: 185px;
+   	float: left;
+    text-align: center;
+    vertical-align: top;
+}
+
+.big-sale .figure > a {
+	font-size: 50px;
+	color: #06eade;
+}
+
+.big-sale .description {
+	display: inline-block;
+	max-width: 185px;
+	padding: 0 20px;
+}
+
+.big-sale .description h2 {
+	font-size: 25px;
+	color: #06eade;
+	text-transform: uppercase;
+	margin: 0;
+	margin-top: 10px;
+	
+}
+
+.big-sale .description span {
+	font-size: 11px;
+	color: #c4c4c4;
+}
+
+.big-sale .description .slogan {
+	text-transform: uppercase;
+}
+
+/***********************/
+/******big-sale END*****/
+/***********************/
+
+/*******************/
+/******bedroom *****/
+/*******************/
+
+.bedroom {
+	padding-bottom: 15px;
+	background-color: #fff;
+}
+
+.bedroom .figure {
+	background-color: #2d2d2d;
+	padding: 100px;
+}
+
+.bedroom .description h2 {
+	margin-bottom: 0;
+	display: inline-block;
+}
+
+.bedroom .description > span {
+	color: #06eade;
+	font-size: 20px;
+	display: block;
+}
+
+.bedroom .description > a {
+	text-transform: uppercase;
+	color: #06eade;
+	background-color: #2d2d2d;
+	min-width: 130px;
+    text-align: center;
+    line-height: 45px;
+    float: right;
+    margin: 15px -15px 0 0;
+}
+
+/**********************/
+/******bedroom END*****/
+/**********************/
+
+
+/****************************/
+/********authorization*******/
+/****************************/
+
+.authorization {
+	min-width: 270px;
+	background-color: #fff;
+	text-align: center;
+	padding-bottom: 10px;
+	position: relative;
+}
+
+.authorization .layout-element {
+	background: url(../images/button-cancel.png) no-repeat 100% 100%;
+	padding: 5px;
+	position: absolute;
+	right: 8px;
+	top: 7px;
+}
+
+.authorization h2 {
+	color: #06eade;
+	background-color: #2d2d2d;
+    padding: 5px;
+    margin: 0;
+    line-height: 50px;
+}
+
+.authorization input {
+	margin: 25px 5px;
+	border: none;
+	min-width: 100px;
+	font-size: 10px;
+	color: #2d2d2d;
+	background-color: #fbfbfb;
+	line-height: 30px;
+}
+
+.authorization .Login {
+	background-color: #fff;
+}
+
+.authorization p {
+	color: #c4c4c4;
+}
+
+.authorization p span {
+	color: #06eade;
+}
+
+/****************************/
+/******authorization END*****/
+/****************************/
+
+/*************************/
+/********contacts ********/
+/*************************/
+
+.contacts {
+	background-color: #545454;
+	text-align: center;
+	color: #fff;
+	position: relative;
+}
+
+.contacts .figure{
+	padding: 45px;
+	position: absolute;
+	background-color: #333333;
+	border-radius: 50%;
+	bottom: 30%;
+	left: 37%;
+}
+
+.contacts a {
+	margin-top: 45px;
+	display: block;
+}
+
+.contacts > span {
+	display: block;
+	color: #06eade;
+	font-size: 11px;
+	height: 30px;
+	margin-bottom: 50px;
+}
+
+.contacts .description .followers {
+	float: left;
+}
+
+.contacts .description .following {
+	float: right;
+	
+
+}
+
+.contacts .description { 
+	color: #656565;
+	font-size: 11px;
+	padding-top: 55px;
+}
+
+.contacts .description p {
+	font-size: 20px;
+	font-weight: 700;
+	color: #06eade;
+	margin: 5px 0 10px;
+}
+
+/****************************/
+/********contacts END********/
+/****************************/
+
+/****************************/
+/********details*************/
+/****************************/
+
+.checkout {
+	min-width: 270px;
+	color: #06eade;
+	height: 110px;
+}
+
+.checkout .figure {
+	background-color: #2d2d2d;
+	display: table-cell;
+    min-width: 120px;
+    text-align: center;
+}
+
+.checkout .description {
+	display: table-cell;
+	padding: 20px 30px;
+}
+
+.checkout .description p {
+	font-size: 30px;
+	color: #2d2d2d;
+	margin: 0;
+}
+
+.checkout .description span {
+	font-size: 15px;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+/****************************/
+/********details END*********/
+/****************************/
+
+/****************************/
+/********persons*************/
+/****************************/
+
+.persons {
+	min-width: 270px;
+	background-color: #fff;
+}
+
+.persons li:nth-child(2) {
+	background-color: #fbfbfb;
+}
+
+.persons li:nth-child(even) {
+	background: url(../images/persons-icon-off.png) no-repeat 95% 50%;
+}
+
+.persons .persons-item {
+	padding: 15px 20px;
+	background: url(../images/persons-icon.png) no-repeat 95% 50%;
+	line-height: 0;
+	height: auto;
+	line-height: 20px;
+}
+
+.persons .persons-item .figure-layout {
+	padding: 25px;
+	border-radius: 50%;
+	background-color: #2d2d2d;
+	float: left;
+}
+
+.persons .persons-item a {
+	vertical-align: middle;
+    margin-left: 10px;
+}
+
+.persons .persons-item .status {
+	font-size: 11px;
+	display: inline-block;
+	color: #c4c4c4;
+	margin-left: 10px;
+    vertical-align: top;
+}
+
+
+/****************************/
+/********persons END*********/
+/****************************/
+
+/****************************/
+/********search*************/
+/****************************/
+
+.search-form {
+	min-width: 270px;
+	position: relative;
+	background-color: #fff;
+	padding: 25px;
+}
+
+.search-form input {
+	border: none;
+	vertical-align: middle;
+}
+
+.search-form .submit {
+    background: url(../images/search-icon.png) no-repeat 50% 50% #fff;
+    margin: 5px 15px 0 0;
+    width: 20px;
+}
+
+/****************************/
+/********search END**********/
+/****************************/

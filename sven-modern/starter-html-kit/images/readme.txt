@@ -1,0 +1,1 @@
+For best performance you can use https://tinypng.com/ or https://tinyjpg.com/
