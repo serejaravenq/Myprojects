@@ -1,11 +1,8 @@
 body {
-<<<<<<< HEAD
 	font-family: 'Montserrat', sans-serif;
-=======
-	font-family: "Montserrat", sans-serif;
->>>>>>> 86e00777b18d361a51c11bcab7ce661e885a1152
 	font-size:  16px;
 	background-color: #1d2c3f;
+	word-wrap: break-word;
 }
 
 
@@ -41,10 +38,12 @@ ul {
 	max-width: 245px;
 	margin: 50px auto;
 	padding: 5px 0;
-	background: url(../images/food.png) no-repeat;
-	height: 320px;
+	background: url(../images/food.png) no-repeat #445367 100% 100%;
+	background-size: cover;
+	min-height: 320px;
 	color: #fff;
 	position: relative;
+	border-radius: 5px;
 }
 
 .ingredients-wrapper .title {
@@ -56,6 +55,17 @@ ul {
 	padding: 0 35px;
 	
 }
+
+.ingredients-wrapper .list .number {
+	max-width: 50px;
+	text-align: left;
+}
+
+.ingredients-wrapper .list .name {
+	max-width: 120px;
+	text-align: right;
+}
+
 .ingredients-wrapper ul li {
   display: -webkit-flex;
   display: -moz-flex;
@@ -109,22 +119,26 @@ ul {
 .burger-wrapper {
 	max-width: 470px;
 	position: relative;
-	background: url(../images/bg-burger.png) no-repeat;
 	margin: 20px auto;	
 }
 
 .burger {
-	height: 455px;
-	padding: 5px 40px;
+	min-height: 481px;
+    padding: 10px 40px;
+    background: url(../images/bg-burger.png) no-repeat 50% 50% #4589bc;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
 }
 
 .burger-wrapper h2 {
 	margin-bottom: 0;
 	color: #fff;
+	max-width: 330px;
 }
 
 .burger-wrapper .info {
 	color: #c6ddee;
+	max-width: 330px;
 }
 
 .burger-wrapper .time {
@@ -144,12 +158,17 @@ ul {
 
 .burger-wrapper .flag  span {
 	font-size: 20px;
-    color: #fff;
-    background: url(../images/star.png) no-repeat 23% 40%;
+	color: #fff;
     display: table-cell;
     padding-right: 15px;
     vertical-align: middle;
     width: 90px;
+}
+
+.burger-wrapper .flag  span a {
+	background: url(../images/star.png) no-repeat 25% 0;
+    padding: 10px 20px;
+    display: inline-block;
 }
 
 .burger-wrapper .footer {
@@ -162,28 +181,37 @@ ul {
 
 .burger-wrapper .footer .sidebar {
 	display: inline-block;
-    float: left;
-    width: 12%;
+    min-width: 50px;
     margin-right: 15px;
+    vertical-align: middle;
 }
 
 .burger-wrapper .footer .sidebar p {
-	border: 2px solid #98c76c;
+	border: 1px solid #98c76c;
 	border-radius: 50%;
     text-align: center;
     color: #98c76c;
     font-size: 30px;
     margin: 10px 0;
-    line-height: 45px;
-    height: 45px;
+    line-height: 46px;
+    height: 46px;
 }
 
 .burger-wrapper .footer .description {
 	display: inline-block;
-    width: 81%;
+    max-width: 300px;
     font-size: 14px;
-    background: url(../images/arrow.png) no-repeat 100%;
-    padding: 0 30px 0 15px;
+    padding-left: 15px;
+    vertical-align: middle;
+    line-height: 24px;
+}
+
+.burger-wrapper .footer  a {
+	 background: url(../images/arrow.png) no-repeat 90% 50%;
+	 padding: 10px 15px;
+	 vertical-align: middle;
+	 display: inline-block;
+	 height: 48px;
 }
 /************************/
 /**burger-wrapper END**/
@@ -195,14 +223,16 @@ ul {
 /************************/
 .flavour-wrapper {
 	max-width: 470px;
-	background: url(../images/coffee.png) no-repeat;
+	background: url(../images/coffee.png) no-repeat #fbfaf8 50% 50%;
+    background-size: cover;
 	color: #000;
 	font-size: 12px;
 	padding: 30px;
 	text-align: center;
-	height: 613px;
+	min-height: 613px;
 	position: relative;
 	margin: 25px auto;
+	border-radius: 10px;
 }
 
 .flavour-wrapper .date {
@@ -217,19 +247,18 @@ ul {
 }
 
 .flavour-wrapper .separator {
-	display: inline-block;
     height: 5px;
     width: 50px;
     background-color: #000;
-    margin: 0;
+    margin: 15px auto;
     border: none;
 }
 
 .flavour-wrapper .description {
  	color: #7f8187;
  	font-size: 14px;
- 	width: 79%;
-    margin: 15px auto;
+ 	max-width: 320px;
+    margin: 15px auto 60px;
 }
 
 .flavour-wrapper .button {
